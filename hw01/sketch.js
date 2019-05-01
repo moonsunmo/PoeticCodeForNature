@@ -21,6 +21,6 @@ function draw() {
   background(0);
   fill(100);
   ellipse(width/2, height/2, 50);
-  canvas.position(20, 60);
-  x = x + 1;
+  canvas.position(20, 60);//
+  x = x + 1;//
 }
