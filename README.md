@@ -8,7 +8,7 @@
 
 ## 작업
  * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G)
-
+이미지 올리기~
 
  * [Party People](https://editor.p5js.org/vvee2929@gmail.com/sketches/G9nlXeyWu)
 
