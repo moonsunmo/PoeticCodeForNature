@@ -8,7 +8,7 @@
 
 ## 작업
  * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G) // * [예시 작업](./example/)
- * 여러분의 작업을 p5 기반으로 만들고 링크를 걸 수 있습니다.
- * 다음처럼 이미지를 추가할 수도 있습니다.
+ * [Party People](https://editor.p5js.org/vvee2929@gmail.com/sketches/G9nlXeyWu)
+ * [Blow Painting](https://editor.p5js.org/vvee2929@gmail.com/sketches/9j42u0FN3)
 
- ![예시 이미지](./example_img.png)
+ // ![예시 이미지](./example_img.png)
