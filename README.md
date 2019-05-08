@@ -7,8 +7,10 @@
  * 게임 애니메이션 포트폴리오를 준비하고 있습니다.
 
 ## 작업
- * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G) // * [예시 작업](./example/)
- * [Party People](https://editor.p5js.org/vvee2929@gmail.com/sketches/G9nlXeyWu)
- * [Blow Painting](https://editor.p5js.org/vvee2929@gmail.com/sketches/9j42u0FN3)
+ * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G)
 
- // ![예시 이미지](./example_img.png)
+
+ * [Party People](https://editor.p5js.org/vvee2929@gmail.com/sketches/G9nlXeyWu)
+
+
+ * [Blow Painting](https://editor.p5js.org/vvee2929@gmail.com/sketches/9j42u0FN3)
