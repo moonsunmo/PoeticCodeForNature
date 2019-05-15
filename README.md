@@ -16,4 +16,4 @@
  * [Blow Painting](https://editor.p5js.org/vvee2929@gmail.com/sketches/9j42u0FN3)
 
 
- * [Chainshape_Simple](./Chainshape_Simple/)
+ * [ChainShape_Simple](./ChainShape_Simple/)
