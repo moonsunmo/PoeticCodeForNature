@@ -8,12 +8,15 @@
 
 ## 작업
  * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G)
+
     ![Color Bubble 이미지](./Color Bubble_img.JPG)
 
  * [Party People](https://editor.p5js.org/vvee2929@gmail.com/sketches/G9nlXeyWu)
+
     ![Party People 이미지](./Party People_img.JPG)
 
  * [Blow Painting](https://editor.p5js.org/vvee2929@gmail.com/sketches/9j42u0FN3)
+
     ![Blow Painting 이미지](./Blow Painting_img.JPG)
 
  * [ChainShape_Simple](./ChainShape_Simple/)
