@@ -7,8 +7,7 @@
  * 게임 애니메이션 포트폴리오를 준비하고 있습니다.
 
 ## 작업
- * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G)
-    이미지 올리기~ (./.png)
+ * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G) // 이미지 올리기~ (./.png)
     [Color Bubble 이미지](./Color Bubble_img.JPG)
 
  * [Party People](https://editor.p5js.org/vvee2929@gmail.com/sketches/G9nlXeyWu)
