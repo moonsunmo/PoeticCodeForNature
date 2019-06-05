@@ -7,6 +7,11 @@
  * 게임 애니메이션 포트폴리오를 준비하고 있습니다.
 
 ## 작업
+ * [HairLoss](./HairLoss/)
+  - 자라나라 머리머리
+
+  ![HairLoss 이미지](./HairLoss_Idea_img.jpg)
+
  * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G)
 
     ![Color Bubble 이미지](./Color Bubble_img.JPG)
