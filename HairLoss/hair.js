@@ -1,20 +1,20 @@
-class Material {
+class Hair {
 
   constructor() {
-    this.pos = createVector(width/2, height/2);
+    this.pos = createVector(width/2, 0);
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
 
-    this.cR = 100;
-    this.cG = 100;
-    this.cB = 100;
-    this.cA = 5;
+    this.cR = 1;
+    this.cG = 1;
+    this.cB = 1;
+    this.cA = 255;
 
     this.w = 10;
   }
 
-  addForce(aForce) {
-    this.acc.add(aForce);
+  applyBalm(aBalm) {
+    this.acc.add(aBalm);
   }
 
   update() {
