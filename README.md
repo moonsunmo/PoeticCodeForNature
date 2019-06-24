@@ -13,7 +13,7 @@
     ![HairLoss 이미지](./HairLoss_img.JPG)
 
   - 아래방향 화살표를 눌러서 발모제를 발라줄 때마다 머리카락이 자라난다.
-    자라날수록 우울한 안색에서 행복한 안색으로 변한다.
+    머리카락이 자라날수록 얼굴색은 우울함을 상징하는 파란색에서 행복함을 상징하는 노란색으로 변한다.
 
  * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G)
 
