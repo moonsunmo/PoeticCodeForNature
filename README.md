@@ -10,7 +10,7 @@
  * [HairLoss](./HairLoss/)
   - 자라나라 머리머리
 
-    ![HairLoss 이미지](./HairLoss_img.jpg)
+    ![HairLoss 이미지](./HairLoss_img.JPG)
 
  * [Color Bubble](https://editor.p5js.org/vvee2929@gmail.com/sketches/60lGoNa8G)
 
