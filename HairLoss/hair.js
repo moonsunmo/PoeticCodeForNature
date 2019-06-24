@@ -1,13 +1,13 @@
 class Hair {
 
   constructor() {
-    this.pos = createVector(width/2, 0);
+    this.pos = createVector(width/2, -10);
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
 
-    this.cR = 1;
-    this.cG = 1;
-    this.cB = 1;
+    this.cR = 0;
+    this.cG = 0;
+    this.cB = 0;
     this.cA = 255;
 
     this.w = 10;
@@ -34,9 +34,9 @@ class Hair {
       this.pos.y = height;
     }
 
-    if (this.pos.y < 0) {
+    if (this.pos.y < -10) {
       this.vel.y = 0;
-      this.pos.y = 0;
+      this.pos.y = -10;
     }
 
     if (this.pos.x > width) {

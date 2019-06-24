@@ -1,6 +1,7 @@
 class Face {
 
   constructor() {
+    this.pos = createVector(width/4, height/2);
     this.cR = 0;
     this.cG = 0;
     this.cB = 255;
@@ -9,7 +10,12 @@ class Face {
     this.w = 30;
   }
 
-  update() {
+  beHappy() {
+    let sadness = map(hair.pos.y, 0, height, 255, 0);
+    let happiness = map(hair.pos.y, 0, height, 0, 255);
+    this.cB = sadness;
+    this.cR = happiness;
+    this.cG = happiness;
 
   }
 

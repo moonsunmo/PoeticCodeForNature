@@ -3,7 +3,7 @@ let face;
 
 function setup() {
   createCanvas(400, 400);
-  background(255);
+  background(200);
 
   hair = new Hair();
   face = new Face();
@@ -19,10 +19,11 @@ function draw() {
   }
 
   hair.update();
-  hair.cR = 1;
-  hair.cG = 1;
-  hair.cB = 1;
+  hair.cR = 0;
+  hair.cG = 0;
+  hair.cB = 0;
   hair.cA = 255;
   hair.show();
   face.show();
+  face.beHappy();
 }
