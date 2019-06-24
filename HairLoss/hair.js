@@ -51,6 +51,7 @@ class Hair {
   }
 
   show() {
+    noStroke();
     fill(this.cR, this.cG, this.cB, this.cA);
     ellipse(this.pos.x, this.pos.y, this.w);
   }
