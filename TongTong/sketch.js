@@ -1,15 +1,15 @@
-let hair;
+let noodle;
 let face;
 
 function setup() {
   createCanvas(400, 400);
-  background(200);
 
-  hair = new Hair();
+  noodle = new Noodle();
   face = new Face();
 }
 
 function draw() {
+  background(200);
 
   balmMag = random(0.1, 0.9);
 
@@ -18,12 +18,12 @@ function draw() {
     hair.applyBalm(growth);
   }
 
-  hair.update();
-  hair.cR = 0;
-  hair.cG = 0;
-  hair.cB = 0;
-  hair.cA = 255;
-  hair.show();
+  noodle.update();
+  noodle.cR = 0;
+  noodle.cG = 0;
+  noodle.cB = 0;
+  noodle.cA = 255;
+  noodle.show();
   face.show();
   face.beHappy();
 }

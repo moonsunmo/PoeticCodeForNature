@@ -1,7 +1,7 @@
-class Hair {
+class Noodle {
 
   constructor() {
-    this.pos = createVector(width/2, -10);
+    this.pos = createVector(width/2, height/2);
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
 
@@ -10,7 +10,7 @@ class Hair {
     this.cB = 0;
     this.cA = 255;
 
-    this.w = 10;
+    this.w = 20;
   }
 
   applyBalm(aBalm) {
@@ -28,25 +28,9 @@ class Hair {
   }
 
 
-  checkEdge() {
-    if (this.pos.y > height) {
-      this.vel.y = 0;
-      this.pos.y = height;
-    }
-
-    if (this.pos.y < -10) {
-      this.vel.y = 0;
-      this.pos.y = -10;
-    }
-
-    if (this.pos.x > width) {
-      this.vel.x = 0;
-      this.pos.x = width;
-    }
-
-    if (this.pos.x < 0) {
-      this.vel.x = 0;
-      this.pos.x = 0;
+  Tong() {
+    if (this.pos.c < 0 || width < this.pos.x){
+      this.acc.x = this.acc.x * -1;
     }
   }
 
