@@ -12,7 +12,7 @@ function draw() {
   background(200);
 
   // hungerMag = random(0.1, 0.9);
-  hunger = createVector(0.2, 0.1);
+  hunger = createVector(random(-0.5, 0.5);, random(-0.5, 0.5););
   noodle.applyTong(hunger);
 
 
