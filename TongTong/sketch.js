@@ -12,11 +12,9 @@ function draw() {
   background(200);
 
   hungerMag = random(0.1, 0.9);
+  hunger = createVector(0, hungerMag);
+  noodle.applyTong(hunger);
 
-  if (keyIsDown(DOWN_ARROW)) {
-    hunger = createVector(0, hungerMag);
-    noodle.applyTong(hunger);
-  }
 
   noodle.update();
   // noodle.cR = 0;
