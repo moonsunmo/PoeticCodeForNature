@@ -11,8 +11,8 @@ function setup() {
 function draw() {
   background(200);
 
-  hungerMag = random(0.1, 0.9);
-  hunger = createVector(0, hungerMag);
+  // hungerMag = random(0.1, 0.9);
+  hunger = createVector(0.2, 0.1);
   noodle.applyTong(hunger);
 
 
