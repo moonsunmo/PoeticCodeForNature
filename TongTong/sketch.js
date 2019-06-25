@@ -1,11 +1,11 @@
 let noodle;
-let face;
+// let face;
 
 function setup() {
   createCanvas(400, 400);
 
   noodle = new Noodle();
-  face = new Face();
+  // face = new Face();
 }
 
 function draw() {
