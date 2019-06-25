@@ -13,24 +13,32 @@ class Noodle {
     this.w = 20;
   }
 
-  applyBalm(aBalm) {
-    this.acc.add(aBalm);
+  applyTong(tongForce) {
+    this.acc.add(tongForce);
   }
 
   update() {
     this.checkEdge();
     this.vel.add(this.acc);
     this.pos.add(this.vel);
-    this.fri = random(0.9, 0.99) ; // friction.
-
     this.acc.set(0, 0);
-    this.vel.mult(this.fri); // Apply friction.
   }
 
 
   Tong() {
-    if (this.pos.c < 0 || width < this.pos.x){
+    if (this.pos.x < 0 || width < this.pos.x){
       this.acc.x = this.acc.x * -1;
+      this.cR = random(255);
+      this.cG = random(255);
+      this.cB = random(255);
+      this.w = random(20, 100);
+    }
+    if (this.pos.y < 0 || width < this.pos.y){
+      this.acc.y = this.acc.y * -1;
+      this.cR = random(255);
+      this.cG = random(255);
+      this.cB = random(255);
+      this.w = random(20, 100);
     }
   }
 

@@ -11,18 +11,18 @@ function setup() {
 function draw() {
   background(200);
 
-  balmMag = random(0.1, 0.9);
+  hungerMag = random(0.1, 0.9);
 
   if (keyIsDown(DOWN_ARROW)) {
-    growth = createVector(0, balmMag);
-    hair.applyBalm(growth);
+    hunger = createVector(0, hungerMag);
+    noodle.applyTong(hunger);
   }
 
   noodle.update();
-  noodle.cR = 0;
-  noodle.cG = 0;
-  noodle.cB = 0;
-  noodle.cA = 255;
+  // noodle.cR = 0;
+  // noodle.cG = 0;
+  // noodle.cB = 0;
+  // noodle.cA = 255;
   noodle.show();
   face.show();
   face.beHappy();
