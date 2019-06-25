@@ -10,37 +10,53 @@ class Noodle {
     this.cB = 0;
     this.cA = 255;
 
-    this.w = 20;
+    this.w = random(20, 100);
+    this.mass = this.w / 100;
   }
 
   applyTong(tongForce) {
+    var f = tongForce.copy();
+    f.div(this.mass);
     this.acc.add(tongForce);
   }
 
   update() {
-    this.Tong();
     this.vel.add(this.acc);
     this.pos.add(this.vel);
     this.acc.set(0, 0);
+    this.Tong();
   }
 
 
   Tong() {
-    if (this.pos.x < 0 || width < this.pos.x){
-      this.acc.x = this.acc.x * -1;
+    if (this.pos.x < 0){
+      this.vel.x = this.vel.x * -1;
+      this.pos.x = 0;
       this.cR = random(255);
       this.cG = random(255);
       this.cB = random(255);
       this.w = random(20, 100);
+      this.mass = this.w / 100;
     }
-    if (this.pos.y < 0 || height < this.pos.y){
-      this.acc.y = this.acc.y * -1;
+    if (this.pos.y > height){
+      this.vel.y = this.vel.y * -1;
+      this.pos.y = height;
       this.cR = random(255);
       this.cG = random(255);
       this.cB = random(255);
       this.w = random(20, 100);
+      this.mass = this.w / 100;
     }
-  }
+    if (this.pos.x > width){
+      this.vel.x = this.vel.x * -1;
+      this.pos.x = width;
+      this.cR = random(255);
+      this.cG = random(255);
+      this.cB = random(255);
+      this.w = random(20, 100);
+      this.mass = this.w / 100;
+    }
+}
 
   show() {
     noStroke();
