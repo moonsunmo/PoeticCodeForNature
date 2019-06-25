@@ -24,6 +24,6 @@ function draw() {
   // noodle.cB = 0;
   // noodle.cA = 255;
   noodle.show();
-  face.show();
-  face.beHappy();
+  // face.show();
+  // face.beHappy();
 }
