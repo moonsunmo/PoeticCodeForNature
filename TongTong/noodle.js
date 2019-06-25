@@ -33,7 +33,7 @@ class Noodle {
       this.cB = random(255);
       this.w = random(20, 100);
     }
-    if (this.pos.y < 0 || width < this.pos.y){
+    if (this.pos.y < 0 || height < this.pos.y){
       this.acc.y = this.acc.y * -1;
       this.cR = random(255);
       this.cG = random(255);
