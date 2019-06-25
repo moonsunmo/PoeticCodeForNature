@@ -18,7 +18,7 @@ class Noodle {
   }
 
   update() {
-    this.checkEdge();
+    this.Tong();
     this.vel.add(this.acc);
     this.pos.add(this.vel);
     this.acc.set(0, 0);
